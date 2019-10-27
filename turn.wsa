@@ -1,0 +1,72 @@
+1   	
+96   		     
+2   	 
+96   		     
+3   		
+96   		     
+4   	  
+96   		     
+5   	 	
+96   		     
+6   		 
+96   		     
+7   			
+96   		     
+8   	   
+96   		     
+9   	  	
+96   		     
+0   
+88   	 		   
+10   	 	 
+1   	
+11   	 		
+0   
+st*12		 		 		 		 		 		 		 		 		 		 		 		 ;;;;;;;;;END_INIT;;;;;;;push_3   		
+rt			push_2   	 
+rt			push_1   	
+rt			   	 	 
+printc	
+  printc	
+  printc	
+  printc	
+  push_6   		 
+rt			push_5   	 	
+rt			push_4   	  
+rt			   	 	 
+printc	
+  printc	
+  printc	
+  printc	
+  push_9   	  	
+rt			push_8   	   
+rt			push_7   			
+rt			   	 	 
+printc	
+  printc	
+  printc	
+  printc	
+  ;;;;;;;;;;END_DISPLAY;;;;;;;;label_SSSTS
+     	 
+push_12   		  
+readi	
+		push_12   		  
+retrieve			push_1   	
+subtract	  	
+neg?TTTSS					  
+push_9   	  	
+push_12   		  
+retrieve			subtract	  	neg?TTTSS
+					  
+push_12   		  
+retrieve			retrieve			push_96   		     
+subtract	  	zero?STTSS
+	  		  
+goto_SSSTS
+ 
+   	 
+label_STTSS
+   		  
+push_12   		  
+retrieve			push_0   
+retrieve			store		 
