@@ -1,24 +1,24 @@
 
-       
+import java.util.ArrayList;      
    	
-   		     
+public class TicTacToe {		     
    	 
-   		     
-   		
-   		     
-   	  
-   		     
+  public static	void	main( String[] args ) { 
+   System.out.println("Welcome");		
+   System.out.println("This	is	tic-tac-toe");     
+   int	a = 5;
+   String	b	= "Stringy";    
    	 	
-   		     
+   char*	strPointer=	&b; // oops this is C
    		 
-   		     
-   			
-   		     
+   for(	int	i=0; ; i++) {  
+   	i--;		
+   	ArrayList<Integer>	AL = new AL<>();  
    	   
    		     
-   	  	
+   }	  	
    		     
-   
+}   
    	 		   
    	 	 
    	
@@ -102,3 +102,4 @@
 
 
 
+lul
